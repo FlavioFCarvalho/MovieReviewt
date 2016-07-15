@@ -12,7 +12,7 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
-/public/systems/movies/images
+/public/system/movies/images
 
 # Ignore Byebug command history file.
 .byebug_history
