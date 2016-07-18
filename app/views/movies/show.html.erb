@@ -3,7 +3,9 @@
     <div class="row">
       <div class="col-md-4">
         <%= image_tag @movie.image.url(:medium) %>
-         <div class="table-responsive">
+        <div class="star-rating" data-score= <%= @avg_review %> ></div>
+        <em><%= "#{@reviews.length} reviews" %></em>
+        <div class="table-responsive">
           <table class="table">
             <tbody>
               <tr>
@@ -28,7 +30,7 @@
               </tr>
             </tbody>
           </table>
-          <%= link_to "Write a Review", new_movie_review_path(@movie)%>
+          <%= link_to "Write a Review", new_movie_review_path(@movie) %>
         </div>
       </div>
       <div class="col-md-7 col-md-offset-1">
