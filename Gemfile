@@ -16,6 +16,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise', '~> 4.2'
 gem 'paperclip', '~> 4.2.0'
 gem 'bootstrap-sass', '~> 3.2.0.2'
+gem 'searchkick', '~> 0.8.3'
 
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
